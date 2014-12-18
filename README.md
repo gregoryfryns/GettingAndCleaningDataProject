@@ -4,10 +4,7 @@ GettingAndCleaningDataProject
 This repository contains the information requested in the course project for the Coursera class "Getting and Cleaning Data" (see https://class.coursera.org/getdata-016/human_grading)
 
 In here you will find :
-* the raw data, in the zip file called "UCI_HAR_Dataset.zip" and unzipped in the "UCI HAR Dataset" folder.
-
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
+* the raw data : Human Activity Recognition Using Smartphones Dataset, Version 1.0 [1]. The raw data is available in its zipped verisionin the file called "UCI_HAR_Dataset.zip" and unzipped in the "UCI HAR Dataset" folder.
 * the "run_analysis.R" script that performs the following operations on the raw data as requested in the assignment :
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -17,3 +14,6 @@ In here you will find :
 * the "tidy.txt" file, which contains the output of the 5th step described above
 * this "README.md" file
 * the codebook.txt file, containing the code book that describes the values presented in the "tidy.txt" file
+
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
