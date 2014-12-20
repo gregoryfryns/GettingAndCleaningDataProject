@@ -5,7 +5,7 @@ This repository contains the information requested in the course project for the
 
 In here you will find :
 * the raw data : Human Activity Recognition Using Smartphones Dataset, Version 1.0 [1]. The raw data is available in its zipped verisionin the file called "UCI_HAR_Dataset.zip" and unzipped in the "UCI HAR Dataset" folder.
-* the "run_analysis.R" script that performs the following operations on the raw data as requested in the assignment :
+* the "run_analysis.R" script that performs the following operations on the raw data as requested in the assignment (not necessarily in the same order) :
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
   _note : the script contained in this repository filtered the column names and kept only the ones containing "-mean()" and "-std()". This means the columns like "fBodyAccJerk-meanFreq()-X" are not taken into account._
