@@ -8,7 +8,7 @@ In here you will find :
 * the "run_analysis.R" script that performs the following operations on the raw data as requested in the assignment (not necessarily in the same order) :
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-  _note : the script contained in this repository filtered the column names and kept only the ones containing "-mean()" and "-std()". This means the columns like "fBodyAccJerk-meanFreq()-X" are not taken into account._
+  _Note : the script contained in this repository filtered the column names and kept only the ones containing "-mean()" and "-std()". This means the columns like "fBodyAccJerk-meanFreq()-X" are not taken into account._
   3. Uses descriptive activity names to name the activities in the data set
   4. Appropriately labels the data set with descriptive variable names. _For some reason the script turns the "-", "(" and ")" characters into dots in the features names. This doesn't affect the readability of the column names much so I didn't bother doing further processing to keep the original features names._
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
